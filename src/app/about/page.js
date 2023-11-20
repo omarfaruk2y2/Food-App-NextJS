@@ -11,15 +11,17 @@ const page = async() => {
   return (
     <div>
         <Header/>
-        <h1>This is about page</h1>
-        {
-            data.map(item => {
-               return <div>
-                    <h1>{item['title']}</h1>
-                    <p>{item['price']}</p>
-                </div>
-            })
-        }
+        <div className="max-w-7xl mx-auto grid grid-cols-3 gap-9 py-32">
+            {
+                data.map(item => {
+                return <div className="border border-fuchsia-800 p-3 rounded-md">
+                        <img className="h-64 w-full" src={item['thumbnail']} />
+                        <h1 className="text-2xl font-serif font-semibold mt-5">{item['title']}</h1>
+                        <p className="text-xl text-white font-bold bg-black inline-flex py-1 px-3 rounded-md mt-3">${item['price']}</p>
+                    </div>
+                })
+            }
+        </div>
     </div>
   )
 }
