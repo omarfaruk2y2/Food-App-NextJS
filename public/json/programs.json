@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/sgrmsDy/Junior-Lambs.webp",
+      "title": "Title 1",
+      "age": 25,
+      "link": "https://example.com/link1",
+      "description": "Description for item 1.",
+      "bg_color": "#000"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/yfp1hbR/Pre-School.webp",
+      "title": "Title 2",
+      "age": 30,
+      "link": "https://example.com/link2",
+      "description": "Description for item 2.",
+      "bg_color": "#8AC926"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/syfyVVc/Kindergarten.webp",
+      "title": "Title 3",
+      "age": 22,
+      "link": "https://example.com/link3",
+      "description": "Description for item 3.",
+      "bg_color": "#1982C4"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
+      "title": "Title 4",
+      "age": 28,
+      "link": "https://example.com/link4",
+      "description": "Description for item 4.",
+      "bg_color": "#6A0572"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
+      "title": "Title 5",
+      "age": 35,
+      "link": "https://example.com/link5",
+      "description": "Description for item 5.",
+      "bg_color": "#FFD166"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
+      "title": "Title 6",
+      "age": 29,
+      "link": "https://example.com/link6",
+      "description": "Description for item 6.",
+      "bg_color": "#E63946"
+    }
+  ]

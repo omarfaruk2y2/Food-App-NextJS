@@ -1,9 +1,33 @@
+'use client'
 import FeaturesCard from "@/Components/FeaturesCard/FeaturesCard"
 import Hero from "@/Components/Hero/Hero"
 import Para from "@/Components/Para/Para"
+import Programs from "@/Components/Programs/Programs"
 import Title from "@/Components/Title/Title"
+import { useEffect, useState } from 'react';
+
 
 const page = () => {
+
+  const [programs, setPrograms] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const program = require('../../public/json/programs.json');
+            setPrograms(program);
+          } catch (error) {
+            console.error('Error fetching data:', error);
+          }
+        };
+        fetchData();
+      }, []);
+  
+  const styling = {
+    backgroundImage: "url('/Programs.webp')",
+    width: "100%",
+  }
+
   return (
     <div className=''>
         {/* Hero Section */}
@@ -25,11 +49,16 @@ const page = () => {
             </div>
         </div>
         {/* Program Section */}
-        <div className="bg-[#F5FBFB]">
+        <div className="" style={styling}>
             <div className="max-w-6xl mx-auto py-32">
               <Title title="Our Educational " hightlight="Programs"></Title>
               <Para para="Kidzo mission is to provide affordable, high-quality early education and childcare services for working families to ensure every child.">
               </Para>
+              <div className='grid grid-cols-2 gap-8'>
+                {
+                  programs.map(item => <Programs key={item.id} item={item} ></Programs>)
+                }
+              </div>
             </div>
         </div>
     </div>
