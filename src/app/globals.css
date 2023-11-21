@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.active-link {
+    color: #fe4b7b;
+}
+
+.pending-link {
+    color: #5f5f7f;
+}
+
+.hightlight {
+    position: relative;
+    z-index: 2;
+}
+
+.hightlight::before {
+    content: "";
+    background-color: #fe4b7b;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 16px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.hightlight._hero::before {
+    bottom: 25px;
+    height: 16px;
+}

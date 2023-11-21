@@ -1,4 +1,4 @@
-import Header from "@/Components/Header/Header"
+'use client'
 
 async function getData(){
     let res = await fetch('https://dummyjson.com/products')
@@ -8,9 +8,9 @@ async function getData(){
 
 const page = async() => {
     let data = await getData()
+    
   return (
     <div>
-        <Header/>
         <div className="max-w-7xl mx-auto grid grid-cols-3 gap-9 py-32">
             {
                 data.map(item => {

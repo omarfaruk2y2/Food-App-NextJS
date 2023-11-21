@@ -1,6 +1,5 @@
 'use client'
 
-import Header from "@/Components/Header/Header";
 import { useState, useEffect } from "react"
 
 const page = () => {
@@ -17,7 +16,6 @@ const page = () => {
 
   return (
     <div>
-        <Header/>
         <h1>This is contact page</h1>
         <a href="#">Hello</a>
         {

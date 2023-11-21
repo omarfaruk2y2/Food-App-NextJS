@@ -1,20 +1,18 @@
 "use client"
 
-
-import { Inter } from 'next/font/google'
 import './globals.css'
 import AnimatedCursor from "react-animated-cursor"
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from '@/Components/Header/Header';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="scroll-smooth">
+        <Header/>
         {children}
         <div className="animate">
-          <AnimatedCursor 
+          {/* <AnimatedCursor 
             innerSize={10}
             outerSize={10}
             color='8, 2, 163'
@@ -45,7 +43,7 @@ export default function RootLayout({ children }) {
                 }
               }
             ]}
-          />
+          /> */}
           <ProgressBar
           height="4px"
           color="#fffd00"
