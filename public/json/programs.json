@@ -2,55 +2,37 @@
     {
       "id": 1,
       "image": "https://i.ibb.co/sgrmsDy/Junior-Lambs.webp",
-      "title": "Title 1",
-      "age": 25,
+      "title": "Toddler Childcare",
+      "age": "3-5 Years3-5 Years",
       "link": "https://example.com/link1",
-      "description": "Description for item 1.",
-      "bg_color": "#000"
+      "description": "Kidzo mission is to provide affordable high-quality early education and childcare",
+      "bg_color": "#F1E7DE"
     },
     {
       "id": 2,
       "image": "https://i.ibb.co/yfp1hbR/Pre-School.webp",
-      "title": "Title 2",
-      "age": 30,
+      "title": "Kindergarten",
+      "age": "2-9 yrs2-9 yrs",
       "link": "https://example.com/link2",
-      "description": "Description for item 2.",
-      "bg_color": "#8AC926"
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#b6e3df"
     },
     {
       "id": 3,
       "image": "https://i.ibb.co/syfyVVc/Kindergarten.webp",
-      "title": "Title 3",
-      "age": 22,
+      "title": "Pre School",
+      "age": "5-8 yrs5-8 yrs",
       "link": "https://example.com/link3",
-      "description": "Description for item 3.",
-      "bg_color": "#1982C4"
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#fde1a4"
     },
     {
       "id": 4,
       "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
-      "title": "Title 4",
-      "age": 28,
+      "title": "Junior Lambs",
+      "age": "12-14 yrs12-14 yrs",
       "link": "https://example.com/link4",
-      "description": "Description for item 4.",
-      "bg_color": "#6A0572"
-    },
-    {
-      "id": 5,
-      "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
-      "title": "Title 5",
-      "age": 35,
-      "link": "https://example.com/link5",
-      "description": "Description for item 5.",
-      "bg_color": "#FFD166"
-    },
-    {
-      "id": 6,
-      "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
-      "title": "Title 6",
-      "age": 29,
-      "link": "https://example.com/link6",
-      "description": "Description for item 6.",
-      "bg_color": "#E63946"
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#f5ccc1"
     }
   ]

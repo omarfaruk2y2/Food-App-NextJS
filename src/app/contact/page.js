@@ -1,32 +1,36 @@
 'use client'
 
-import { useState, useEffect } from "react"
+import GoogleMapReact from 'google-map-react';
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const page = () => {
-    const [demo, setDemo] = useState([]);
-
-    useEffect(() => {
-        (async () =>{
-            let res = await fetch('https://dummyjson.com/products')
-            let json = await res.json()
-            setDemo(json['products'])
-        })()
-    }, [])
-    
+    const defaultProps = {
+        center: {
+          lat: 10.99835602,
+          lng: 77.01502627
+        },
+        zoom: 11
+      };
 
   return (
-    <div>
-        <h1>This is contact page</h1>
-        <a href="#">Hello</a>
-        {
-            demo.map(item => {
-               return <div>
-                    <h1>{item['title']}</h1>
-                    <p>{item['price']}</p>
-                </div>
-            })
-        }
-
+    <div className="">
+        <div className="">
+            <div className=""></div>
+        </div>
+        <div style={{ height: '600px', width: '100%' }}>
+            <GoogleMapReact
+                bootstrapURLKeys={{ key: "" }}
+                defaultCenter={defaultProps.center}
+                defaultZoom={defaultProps.zoom}
+            >
+                <AnyReactComponent
+                lat={59.955413}
+                lng={30.337844}
+                text="My Marker"
+                />
+            </GoogleMapReact>
+        </div>
     </div>
   )
 }

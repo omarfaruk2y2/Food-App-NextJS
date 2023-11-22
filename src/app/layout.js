@@ -4,6 +4,7 @@ import './globals.css'
 import AnimatedCursor from "react-animated-cursor"
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 import Header from '@/Components/Header/Header';
+import Footer from '@/Components/Footer/Footer';
 
 export default function RootLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
       <body className="scroll-smooth">
         <Header/>
         {children}
+        <Footer/>
         <div className="animate">
           {/* <AnimatedCursor 
             innerSize={10}
