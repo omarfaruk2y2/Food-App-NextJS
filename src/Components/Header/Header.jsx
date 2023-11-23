@@ -13,6 +13,8 @@ const Header = () => {
             <div className="flex gap-5 items-center justify-center text-black font-extrabold font-nunito text-base">
                 <Link className={currentPathname === '/' ? 'active-link' : 'pending-link'} href={"/"}>Home</Link>
                 <Link className={currentPathname === '/about' ? 'active-link' : 'pending-link'} href={"/about"}>About</Link>
+                <Link className={currentPathname === '/program' ? 'active-link' : 'pending-link'} href={"/program"}>Program</Link>
+                <Link className={currentPathname === '/blog' ? 'active-link' : 'pending-link'} href={"/blog"}>Blog</Link>
                 <Link className={currentPathname === '/contact' ? 'active-link' : 'pending-link'} href={"/contact"}>Contact</Link>
             </div>
             <div>

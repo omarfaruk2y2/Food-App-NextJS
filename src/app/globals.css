@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 
+.bbtn {}
+
 .active-link {
     color: #fe4b7b;
 }

@@ -1,5 +1,7 @@
 'use client'
 
+import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb"
+
 async function getData(){
     let res = await fetch('https://dummyjson.com/products')
     let json = await res.json()
@@ -11,6 +13,7 @@ const page = async() => {
     
   return (
     <div>
+        <Breadcrumb page_title="About"/>
         <div className="max-w-7xl mx-auto grid grid-cols-3 gap-9 py-32">
             {
                 data.map(item => {

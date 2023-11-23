@@ -3,36 +3,52 @@
       "id": 1,
       "image": "https://i.ibb.co/sgrmsDy/Junior-Lambs.webp",
       "title": "Toddler Childcare",
-      "age": "3-5 Years3-5 Years",
+      "age": "3-5",
       "link": "https://example.com/link1",
-      "description": "Kidzo mission is to provide affordable high-quality early education and childcare",
-      "bg_color": "#F1E7DE"
+      "short_description": "Kidzo mission is to provide affordable high-quality early education and childcare",
+      "bg_color": "#F1E7DE",
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a bell chancer young delinquent at public school, cockup matie boy sloshed cheeky bugger tomfoolery arse over tit morish.Show off show off pick your nose.  blow off cobblers lavatory hanky panky squiffy bloke Elizabeth say. my good sir lurgy what a plonker up the duff only a quid blag blower, pardon you bleeder spend a penny chip shop excuse my French Eaton.",
+      "thumbnail": "https://i.ibb.co/3BQhN5g/jerry-wang-Rw-CP91-Rw-Ze-M-unsplash-scaled-1-535x424.jpg",
+      "tution_fees": "150",
+      "time": "09-10"
     },
     {
       "id": 2,
       "image": "https://i.ibb.co/yfp1hbR/Pre-School.webp",
       "title": "Kindergarten",
-      "age": "2-9 yrs2-9 yrs",
+      "age": "2-9",
       "link": "https://example.com/link2",
-      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
-      "bg_color": "#b6e3df"
+      "short_description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#b6e3df",
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a bell chancer young delinquent at public school, cockup matie boy sloshed cheeky bugger tomfoolery arse over tit morish.Show off show off pick your nose.  blow off cobblers lavatory hanky panky squiffy bloke Elizabeth say. my good sir lurgy what a plonker up the duff only a quid blag blower, pardon you bleeder spend a penny chip shop excuse my French Eaton.",
+      "thumbnail": "https://i.ibb.co/PQWhwWq/07-535x424.jpg",
+      "tution_fees": "200",
+      "time": "08-19"
     },
     {
       "id": 3,
       "image": "https://i.ibb.co/syfyVVc/Kindergarten.webp",
       "title": "Pre School",
-      "age": "5-8 yrs5-8 yrs",
+      "age": "5-8",
       "link": "https://example.com/link3",
-      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
-      "bg_color": "#fde1a4"
+      "short_description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#fde1a4",
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a bell chancer young delinquent at public school, cockup matie boy sloshed cheeky bugger tomfoolery arse over tit morish.Show off show off pick your nose.  blow off cobblers lavatory hanky panky squiffy bloke Elizabeth say. my good sir lurgy what a plonker up the duff only a quid blag blower, pardon you bleeder spend a penny chip shop excuse my French Eaton.",
+      "thumbnail": "https://i.ibb.co/LYVzVVB/pexels-photo-5212338-535x424.jpg",
+      "tution_fees": "90",
+      "time": "09-10"
     },
     {
       "id": 4,
       "image": "https://i.ibb.co/6NXMvRh/Toddler-Childcare.webp",
       "title": "Junior Lambs",
-      "age": "12-14 yrs12-14 yrs",
+      "age": "12-14",
       "link": "https://example.com/link4",
-      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
-      "bg_color": "#f5ccc1"
+      "short_description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a",
+      "bg_color": "#f5ccc1",
+      "description": "He nicked it starkers lost the plot argy-bargy pear shaped faff about give us a bell chancer young delinquent at public school, cockup matie boy sloshed cheeky bugger tomfoolery arse over tit morish.Show off show off pick your nose.  blow off cobblers lavatory hanky panky squiffy bloke Elizabeth say. my good sir lurgy what a plonker up the duff only a quid blag blower, pardon you bleeder spend a penny chip shop excuse my French Eaton.",
+      "thumbnail": "https://i.ibb.co/kxcnvP5/D-535x424.jpg",
+      "tution_fees": "100",
+      "time": "11-12"
     }
   ]
